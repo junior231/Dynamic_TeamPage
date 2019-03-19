@@ -27,13 +27,13 @@
  
 	function hideLightbox() {
 
-		// lightBox1.classList.remove('display');
+		lightBox1.classList.remove('display');
 		lightBox.classList.remove('display');
  
 	}
 
  
 	clickbio.addEventListener('click', showLightbox);
-	// clickbio1.addEventListener('click', showLightbox1);
+	clickbio1.addEventListener('click', showLightbox1);
 
  })();
