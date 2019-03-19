@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*.hidden{
+  display: none;
+}*/
+
+#container {
+  max-width: 1140px;
+  /*margin-top: 40px;*/
+  margin: 0 auto;
+}
+
+body {
+  font-family: Lato, 'Open Sans', Helvetica, sans-serif;
+}
+
+
+#home-head {
+ /* content:"";*/
+  display:block;
+  min-height:200px;
+  width:100%;
+  text-align:center;
+  box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+}
+#home-head h1 {
+  font-size:34px;
+  color:#fff;
+  line-height:0.879em;
+  text-shadow:0 1px 2px rgba(0,0,0,0.4);
+  text-transform:uppercase;
+  padding-top:100px;
+}
+
+#click, #click1
+{
+  text-decoration: none;
+  background-color: #666;
+  display: block;
+  width: 100px;
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  transition: all .5s linear;
+  margin-bottom: 20px;
+}
+
+#click:hover, #click1:hover
+{
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.lightbox, .lightbox1 {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+.text-intro2 {
+  border-bottom:1px solid #e5e4e4;
+  /*float:left;*/
+  width:100%;
+  padding:25px 0;
+  margin-bottom:60px;
+}
+
+.text-intro2 h2 {
+  font-size:40px;
+  color:#606060;
+  text-align:center;
+}
+
+.picture2 {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  /*border-radius: 10px;*/
+}
+
+.picture2 img{
+  height: auto;
+  border: 4px solid #ccc;
+  transition: opacity .25s linear;
+  border-radius: 5px;
+}
+
+.picture2 img:hover{
+  opacity: .8;
+}
+
+
+
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+ /* margin-top: 20px;*/
+}
+
+.team2 h1 {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  /*padding-top: 15px;*/
+  color:#606060;
+}
+
+.team2 h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  font-style: italic;
+  color:#606060;
+}
+
+.team2 p {
+  margin-top: 10px;
+  width: 400px;
+  line-height: 20px;
+  color:#606060;
+} 
+
+.team3 h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  font-style: italic;
+  color:#606060;
+}
+
+.team3 p {
+  margin-top: 10px;
+  width: 400px;
+  line-height: 20px;
+  color:#606060;
+}
